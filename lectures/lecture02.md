@@ -23,3 +23,4 @@
   - Stochastic gradient descent solution of linear regression
 - [Linear regression demo](https://mlu-explain.github.io/linear-regression) by Jared Willber
 
+ 
