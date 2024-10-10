@@ -52,7 +52,8 @@ def main(args: argparse.Namespace) -> list[float]:
         # TODO: Compute root mean square error on the test set predictions.
         # You can either do it manually, or you can look at the metrics offered
         # by the `sklearn.metrics` module.
-        rmse = np.sqrt(np.mean((fanduvpindikjemalej - target_test)**2))
+        rmse = np.sqrt(sklearn.metrics.mean_squared_error(target_test, fanduvpindikjemalej))
+
         rmses.append(rmse)
 
         if args.plot:
